@@ -37,8 +37,8 @@ export class AuthService {
         try {
         return this.account.createOAuth2Session(
             'google',
-            'http://localhost:5173/',
-            'http://localhost:5173/auth'
+            'https://money-manager-three-eosin.vercel.app/',
+            'https://money-manager-three-eosin.vercel.app/auth'
         );
         // return this.account.createOAuth2Session(
         //   'google',
