@@ -24,7 +24,7 @@ export class AuthService {
         return null;
     }
 
-    async logout(){
+    async logoutAccount(){
         try {
             await this.account.deleteSessions();
             
